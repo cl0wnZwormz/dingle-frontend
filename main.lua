@@ -11,7 +11,7 @@ query.on_submit(function(content)
     cards_thing()
 
     local res = fetch({
-		url = "https://search.buss.lol/search?q=" .. content,
+		url = "https://search.ifuck.rocks/search?q=" .. content,
 		method = "GET",
 		headers = { ["Content-Type"] = "application/json" },
 	})
